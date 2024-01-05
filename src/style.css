@@ -24,7 +24,6 @@ main{
 main h1{
   font-size: 30px;
   font-weight: 700;
-  /* margin-top: 30px; */
 }
 main p{
   font-size: 15px;
@@ -90,4 +89,46 @@ nav{
 
 .best{
   width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 90%; 
+    height: 280px;
+    margin: 0 auto;
+  }
+
+  main h1 {
+    font-size: 24px; 
+    margin-bottom: 1rem;
+  }
+
+  main p {
+    font-size: 12px; 
+  }
+
+  .dies-container {
+    gap: 10px; 
+  }
+
+  .dies {
+    width: 30px; 
+    height: 30px; 
+    font-size: 1rem; 
+  }
+
+  main button {
+    width: 100px; 
+    height: 40px; 
+    font-size: 1rem; 
+    margin-top: 0;
+  }
+
+  nav{
+    max-width: 90%;
+  }
+
+  .time, .roll, .best {
+    font-size: 12px;
+  }
 }
